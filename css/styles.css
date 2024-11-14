@@ -21,8 +21,8 @@ img {
 
 .container {
     max-width: 100%;
-    padding-left: 156px;
-    padding-right: 156px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: 0px;
     margin-right: 0px;
     display: block;
@@ -58,6 +58,7 @@ img {
     color: #4d5ae5;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 156px;
     
   
 }
@@ -85,7 +86,7 @@ img {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
-   
+    margin-left: 76px;
 } 
 .link {
     color: #2E2F42;
@@ -99,7 +100,7 @@ img {
 }
 .had-address {
     font-style: normal;
-    display: flex;
+    display: flex;   
     
 }
 .address-nav {
@@ -112,6 +113,7 @@ img {
     gap: 40px;
     padding-top: 24px;
     padding-bottom: 24px;
+    
 }
 .address-link {
     text-decoration: none;
@@ -163,7 +165,7 @@ img {
 .second-section {
     padding: 120px 0;
 }
-.spase {
+.visually-hidden {
     color: #FFFFFF;
     visibility: hidden;
 }
@@ -171,7 +173,7 @@ img {
    background-color: #FFFFFF;
    list-style-type: none;
    display: flex;
-   gap: 40px;
+   gap: 24px;
    width: 100%;
 }
 .feat-items {
@@ -183,6 +185,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .feat-text {
     color: #434455;
